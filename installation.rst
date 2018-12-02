@@ -64,7 +64,7 @@ When you use the RPM package, the Miniflux daemon is supervised by systemd.
 6. Start the process with systemd: :code:`systemctl start miniflux`
 7. Check process status: :code:`systemctl status miniflux`
 
-Systemd reads the `environment variables <configuration.html>`_ from the file :code:`/etc/miniflux.conf`.
+Systemd reads the :ref:`environment variables <env-variables>` from the file :code:`/etc/miniflux.conf`.
 You must restart the service to take the new values into consideration.
 
 The files to build the RPM packages are available here: `<https://github.com/miniflux/package-rpm>`_.
