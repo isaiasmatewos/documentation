@@ -1,6 +1,8 @@
 Configuration
 =============
 
+.. _env-variables:
+
 Miniflux doesn't use any configuration file, **only environment variables**.
 
 Systemd uses the file ``/etc/miniflux.conf`` to populate environment variables.

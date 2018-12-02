@@ -4,17 +4,20 @@ Installation
 Packages
 --------
 
-+----------------+------------+------------------------------------------------------+
-| Platform       |  Type      |  URL                                                 |
-+================+============+======================================================+
-| Debian/Ubuntu  |  Official  |  `<https://github.com/miniflux/package-deb>`_        |
-+----------------+------------+------------------------------------------------------+
-| RHEL/Fedora    |  Official  |  `<https://github.com/miniflux/package-rpm>`_        |
-+----------------+------------+------------------------------------------------------+
-| Arch Linux     |  Community |  `<https://aur.archlinux.org/packages/miniflux/>`_   |
-+----------------+------------+------------------------------------------------------+
++----------------+---------------------+--------------------------------------------------------------------------+
+| Platform       |  Type               |  URL                                                                     |
++================+=====================+==========================================================================+
+| Debian/Ubuntu  |  Upstream (Binary)  |  `<https://github.com/miniflux/package-deb>`_                            |
++----------------+---------------------+--------------------------------------------------------------------------+
+| RHEL/Fedora    |  Upstream (Binary)  |  `<https://github.com/miniflux/package-rpm>`_                            |
++----------------+---------------------+--------------------------------------------------------------------------+
+| Arch Linux     |  Community (Source) |  `<https://aur.archlinux.org/packages/miniflux/>`_                       |
++----------------+---------------------+--------------------------------------------------------------------------+
+| FreeBSD        |  Community (Source) |  `www/miniflux <https://svnweb.freebsd.org/ports/head/www/miniflux/>`_   |
++----------------+---------------------+--------------------------------------------------------------------------+
 
-You can download pre-compiled Miniflux binaries and packages on the releases page: `<https://github.com/miniflux/miniflux/releases>`_.
+You can download precompiled binaries and packages on the releases page: `<https://github.com/miniflux/miniflux/releases>`_.
+You could also :ref:`build the application from the source code <build-sources>`.
 
 Manual Installation
 -------------------
@@ -42,7 +45,7 @@ When using the Debian package, the Miniflux daemon is supervised by systemd.
 4. Run the SQL migrations: :code:`miniflux -migrate`
 5. Create an admin user: :code:`miniflux -create-admin`
 
-Systemd reads the `environment variables <configuration.html>`_ from the file :code:`/etc/miniflux.conf`.
+Systemd reads the :ref:`environment variables <env-variables>` from the file :code:`/etc/miniflux.conf`.
 You must restart the service to take the new values into consideration.
 
 The files to build the Debian packages are available here: `<https://github.com/miniflux/package-deb>`_.

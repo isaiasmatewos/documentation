@@ -19,6 +19,8 @@ You can checkout the source code anywhere on your filesystem.
 
 Miniflux is using `Go Modules <https://github.com/golang/go/wiki/Modules>`_ to manage dependencies.
 
+.. _build-sources:
+
 Build a binary of the application
 ---------------------------------
 
