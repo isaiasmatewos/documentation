@@ -10,8 +10,8 @@ Miniflux is a minimalist and opinionated feed reader.
    opinionated
    features
    requirements
-   configuration
    installation
+   configuration
    upgrade
    tutorials
    howto

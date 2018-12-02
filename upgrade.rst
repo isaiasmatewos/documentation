@@ -1,5 +1,5 @@
-Upgrading to a New Version
-==========================
+Upgrading Miniflux
+==================
 
 .. warning:: Please, do not update the software blindly without reading the `ChangeLog <https://github.com/miniflux/miniflux/blob/master/ChangeLog>`_.
              Always check for breaking changes if any.
@@ -7,7 +7,7 @@ Upgrading to a New Version
 Procedure
 ---------
 
-1. Export environment variable ``DATABASE_URL`` if not already done: :code:`export DATABASE_URL=postgres://...`
+1. Export environment variable ``DATABASE_URL`` if not already done
 2. Disconnect all users by flushing all sessions: :code:`miniflux -flush-sessions`
 3. Stop the process
 4. Backup your database
