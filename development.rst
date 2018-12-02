@@ -24,6 +24,20 @@ Miniflux is using `Go Modules <https://github.com/golang/go/wiki/Modules>`_ to m
 Build a binary of the application
 ---------------------------------
 
+Build the application for the actual platform:
+
+.. code:: bash
+
+    make miniflux
+
+To define a specific version number:
+
+.. code:: bash
+
+    make miniflux VERSION=2.0.13
+
+Cross compilation:
+
 .. code:: bash
 
     # Build all binaries for all supported platforms
