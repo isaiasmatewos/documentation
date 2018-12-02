@@ -43,13 +43,16 @@ Build a binary of the application
     make linux-armv5
 
     # Mac OS (amd64)
-    make darwin
+    make darwin-amd64
 
     # FreeBSD (amd64)
-    make freebsd
+    make freebsd-amd64
 
     # OpenBSD (amd64)
-    make openbsd
+    make openbsd-amd64
+
+    # Windows (amd64)
+    make windows-amd64
 
 Remove precompiled binaries
 ---------------------------
@@ -74,7 +77,7 @@ To avoid any dependencies, all assets (Javascript, CSS, images, translations) ar
 
 .. code:: bash
 
-    go generate
+    make generate
 
 Linter
 ------
