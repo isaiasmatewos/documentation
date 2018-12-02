@@ -21,7 +21,7 @@ Operating Systems
 Databases
 ---------
 
-- Postgresql >= 9.4
+- Postgresql >= 9.5
 
 Web Browsers
 ------------
