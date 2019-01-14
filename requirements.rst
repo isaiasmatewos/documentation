@@ -15,8 +15,9 @@ Operating Systems
 - `Darwin <https://github.com/golang/go/wiki/Darwin>`_
 - `FreedBSD <https://github.com/golang/go/wiki/FreeBSD>`_
 - `OpenBSD <https://github.com/golang/go/wiki/OpenBSD>`_
+- Windows
 
-.. note:: All Unix operating systems supported by Golang should work but Miniflux is mainly tested with Linux.
+.. note:: All operating systems supported by Golang should work but Miniflux is mainly tested with Linux.
 
 Databases
 ---------
@@ -33,4 +34,4 @@ A browser compatible with **ECMAScript 6 is required**.
 - Safari
 - Microsoft Edge
 
-.. warning:: Internet Explorer is not supported.
+.. warning:: Internet Explorer and the Kindle browser are not supported.
