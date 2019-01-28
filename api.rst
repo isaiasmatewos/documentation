@@ -505,6 +505,7 @@ Available filters:
 - ``before_entry_id`` (int64, available since Miniflux 2.0.9)
 - ``after_entry_id`` (int64, available since Miniflux 2.0.9)
 - ``starred`` (boolean, available since Miniflux 2.0.9)
+- ``search``: search query (text, available since Miniflux 2.0.10)
 
 Response:
 
@@ -574,6 +575,7 @@ Available filters:
 - ``before_entry_id`` (int64, available since Miniflux 2.0.9)
 - ``after_entry_id`` (int64, available since Miniflux 2.0.9)
 - ``starred`` (boolean, available since Miniflux 2.0.9)
+- ``search``: search query (text, available since Miniflux 2.0.10)
 
 Response:
 
