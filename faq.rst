@@ -113,3 +113,8 @@ Why SQL migrations are not executed automatically?
 - Only one process should manipulate the database schema at once.
 - If you run multiple containers with an orchestrator that may cause issues.
 - You can still run the migrations by defining the variable ``RUN_MIGRATIONS=1``.
+
+How to backup my data?
+----------------------
+
+Just use standard Postgresql tools: https://www.postgresql.org/docs/current/app-pgdump.html
